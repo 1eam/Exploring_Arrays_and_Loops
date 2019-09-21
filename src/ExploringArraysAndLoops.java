@@ -28,10 +28,9 @@ public class ExploringArraysAndLoops {
 
 		for (int i = 0; i <= 6; i++) {
 			System.out.println(storedCharacter[i]);
-		storedCharacter [6] = 'T';
-		storedCharacter [1] = 'O';
+		storedCharacter [6] = 'O';
+		storedCharacter [1] = 'X';
 		}
-
 
 	}
 }
