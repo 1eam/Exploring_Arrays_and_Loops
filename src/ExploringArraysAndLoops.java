@@ -19,19 +19,18 @@ public class ExploringArraysAndLoops {
 
 		
 		char[] storedCharacter = new char [11];
-		storedCharacter [0] = ' ';
 		storedCharacter [1] = 'S';
 		storedCharacter [2] = '.';
 		storedCharacter [3] = '.';
 		storedCharacter [4] = '.';
 		storedCharacter [5] = '.';
 		storedCharacter [6] = 'E';
-		storedCharacter [7] = '.';
-		storedCharacter [8] = '.';
-		storedCharacter [9] = '.';
-		storedCharacter [10] ='T';
-		for (int i = 0; i <= 6; i++)
+
+		for (int i = 0; i <= 6; i++) {
 			System.out.println(storedCharacter[i]);
+		storedCharacter [6] = 'T';
+		storedCharacter [1] = 'O';
+		}
 
 
 	}
